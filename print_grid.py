@@ -1,5 +1,41 @@
 #!/usr/bin/env python3
 
+"""
+NOTE: this is for testing the game's logic only
+"""
+
+"""
+NOTE: this is for testing the game's logic only
+"""
+
+"""
+NOTE: this is for testing the game's logic only
+"""
+
+"""
+NOTE: this is for testing the game's logic only
+"""
+
+"""
+NOTE: this is for testing the game's logic only
+"""
+
+"""
+NOTE: this is for testing the game's logic only
+"""
+
+"""
+NOTE: this is for testing the game's logic only
+"""
+
+"""
+NOTE: this is for testing the game's logic only
+"""
+
+"""
+NOTE: this is for testing the game's logic only
+"""
+
 def print_grid(grid_struc):
     """
     Prints a 2D grid structure to the console.
