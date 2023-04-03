@@ -1,7 +1,5 @@
 # Welcome to Conway's Game of Life in Python!
 <img width="50%" src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif">
-
-![alt text](https://upload.wikimedia.org/wikipedia/commons/e/ec/Conways_game_of_life_breeder.png)
 <hr>
 <p>This program simulates the evolution of a grid of cells based on a set of simple rules.</p>
 <p>It's a fascinating example of emergent behavior in complex systems and is named after its creator, mathematician <a href="https://en.wikipedia.org/wiki/John_Horton_Conway">John Horton Conway</a>.</p>
