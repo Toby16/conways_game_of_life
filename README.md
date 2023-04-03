@@ -17,5 +17,5 @@ To run the program, you'll need to have Python 3 installed on your computer. Onc
 ## conclusion
 * The Game of Life is a fascinating example of a simple system with complex behavior.</p>
 * With this implementation in Python, you can explore the patterns and behaviors that emerge from different initial configurations and customizations.
-
-<small>Have fun exploring!</small>
+<p>Have fun exploring!</p>
+<hr>
