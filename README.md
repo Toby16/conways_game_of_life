@@ -9,4 +9,9 @@ To run the program, you'll need to have Python 3 installed on your computer. Onc
 * Clone this repository to your local machine.
 * Open a terminal or command prompt and navigate to the root directory of the project.
 * run `python3 conway.py`
-* The game will start, and you'll see a grid of cells with some initial configuration. You can click on any cell to toggle its state between alive and dead. You can also use the space bar to pause and resume the simulation.
+* The game will start, and you'll see a grid of cells with some initial configuration.
+* You can click on any cell to toggle its state between alive and dead.
+* You can also use the space bar to pause and resume the simulation.
+<p>These rules lead to some remarkable patterns and behaviors. Some configurations will quickly stabilize into a static pattern, while others will oscillate back and forth between two or more states.</p>
+
+
