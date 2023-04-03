@@ -3,6 +3,7 @@
 import random
 import print_grid
 
+
 # function to update the grid after each generations
 def update_grid(grid_struc):
     # get length of grid's row and colums
@@ -25,11 +26,13 @@ def update_grid(grid_struc):
                         # grid_struc[row+1][col+j]
                         # grid_struc[row+0][col+0] points the the cell itself
                         continue
-                    if ((row + i) < 0) or ((row + i) >=ROWS):
-                        # edge case to avoid index error and wrong accessing of neighbors based on rows
+                    if ((row + i) < 0) or ((row + i) >= ROWS):
+                        # edge case to avoid index error
+                        # and wrong accessing of neighbors based on rows
                         continue
                     if ((col + j) < 0) or ((col + j) >= COLS):
-                        # edge case to avoid index error and wrong accessing of neighbors based on colunms
+                        # edge case to avoid index error
+                        # and wrong accessing of neighbors based on colunms
                         continue
                     count += grid_struc[row + i][col + j]
 
@@ -45,11 +48,8 @@ def update_grid(grid_struc):
                 # Any live cell with two or three live neighbours survives
                 if count in [2, 3]:
                     new_grid[row][col] = 1
-    
+
     return (new_grid)
-
-
-
 
 
 if __name__ == "__main__":
@@ -83,6 +83,7 @@ if __name__ == "__main__":
             [0, 0, 0, 0, 0, 0, 0]
             ]
 
+    print("INITIAL GRID:")
     print_grid.print_grid(grid_test)
 
     # testing updating function
@@ -91,4 +92,3 @@ if __name__ == "__main__":
         print()
         print("GENERATION:", i + 1)
         print_grid.print_grid(grid_test)
-
