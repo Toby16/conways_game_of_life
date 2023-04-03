@@ -1,5 +1,5 @@
 # Welcome to Conway's Game of Life in Python!
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif">
+<img style="margin-left: 20%" src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif">
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/e/ec/Conways_game_of_life_breeder.png)
 <hr>
